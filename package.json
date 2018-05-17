@@ -1,0 +1,16 @@
+{
+  "name": "ParcelImportHTML",
+  "version": "1.0.0",
+  "description": "Just a project to test how we can import HTML with Parcel bundler.",
+  "main": "index.js",
+  "author": "Bruno Orlandi <brorlandi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-transform-html-import-to-string": "^0.0.1",
+    "parcel-bundler": "^1.8.1"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
